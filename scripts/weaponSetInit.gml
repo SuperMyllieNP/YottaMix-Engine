@@ -17,3 +17,141 @@ global.weaponSet[5] = makeArray(objBusterShot, objTimeStopper, objPowerStone, ob
 // Example game
 global.weaponSet[6] = makeArray(objBusterShot, objSuperArm, objTimeStopper, objGeminiLaser, objPharaohShot, objPowerStone,
     objPlantBarrier, objHornetChaser, objChillSpike, objRushCoil, objRushJet, objRushCycle, objTrebleBoost, objMagnetBeam);
+
+//Fuggit, gimme EVERYTHING    
+global.weaponSet[7] = makeArray(
+    	//--OFFICIAL---\\
+    	//BUSTER(S)
+    	objBusterShot,
+    	
+    	//1 + PU
+    	objIceSlasher,
+    	objThunderBeam,
+    	objTimeSlow,
+    	objSuperArm, 
+    	
+    	//2
+    	objMetalBlade,
+    	objTimeStopper, 
+    	
+    	//3
+    	objTopSpin,
+    	objSparkShock,
+    	objSearchSnake,
+    	objGeminiLaser, 
+    	
+    	//4
+    	objRainFlush,
+    	objFlashStopper,
+    	objPharaohShot, 
+    	
+    	//5
+    	objPowerStone,
+    	objWaterWave,
+    	
+    	//6
+     objPlantBarrier, 
+    	
+    	//7
+    	objSlashClaw,
+    	
+    	//8
+    	objHomingSniper,
+    	
+    	//B
+    	objTenguBlade,
+    	objMagicCard,
+    	objIceWall,
+    	objWaveBurner,
+    	
+    	//B2, Rock
+    	objVulcanSplit,
+    	objFlameShower,
+    	objBarrierWind,
+    	
+    	//B2, Forte
+    	objVulcanSnipe,
+    	objFlameMixer,
+    	objPierceCyclone,
+    	
+    	//9
+    	objConcreteShot,
+    	objBlackHoleBomb,
+    	objJewelSatellite,
+    	objTornadoBlow,
+    	objHornetChaser,
+    	objLaserTrident,	
+    	
+    	//10
+    	objThunderWool,
+    	objWaterShield,
+    	objSolarBlaze,
+    	objChillSpike, 
+    	objWheelCutter,
+    	objTripleBlade,
+    	
+    	//11
+    	objBlockDropper,
+    	
+    	//12
+    	
+    	//MMK
+    	objSakugarne,
+    	
+    	//W5
+    	objGrabBuster,
+    	objSparkChaser,
+    	objSaltWater,
+    	objBreakDash,
+    	
+    	//DOS
+    	
+    	//3DOS
+    	
+    	//PB + PF
+    	
+    	//PSA
+    	
+    	//SF
+    	
+    	//MvC
+    	objMagneticShockwave,
+    	
+    	//---OTHER MEDIA---\\
+    	//Archie Comics
+    	
+    	//Worlds Collide + Unite
+    	
+    	//Dreamwave
+    	
+    	//---FAN-MADE---\\
+    	//Megamix
+    	objSkeletuppinPakkajoe,
+    	
+    	//---OTHER SERIES---\\
+    	objMarioFireball,
+    	objMarioHammer,
+    	objMarioSuperball,
+    	
+    	//---SUPPORT---\\
+    	//RUSH
+    	objRushCoil, 
+    	objRushJet, 
+    	objRushCycle, 
+    	
+    	//TANGO
+    	
+    	//BEAT
+    	
+    	//EDDIE
+    	
+    	//TREBLE
+    	objTrebleBoost, 
+    	
+    	//REGGAE
+    	
+    	//OTHER
+    	objMagnetBeam,
+    	objWireAdapter,
+    	objSuperArrow
+);

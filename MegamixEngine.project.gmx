@@ -8883,6 +8883,9 @@
         <object>objects\prtRail</object>
         <object>objects\prtRailPlatform</object>
       </objects>
+      <objects name="Custom">
+        <object>objects\objTestDummy</object>
+      </objects>
     </objects>
     <objects name="Sections">
       <object>objects\objStopScrollingHorizontal</object>
@@ -9196,6 +9199,7 @@
   <rooms name="rooms">
     <room>rooms\rmInit</room>
     <room>rooms\lvlCopyThisRoom</room>
+    <room>rooms\lvlYottamixHub</room>
     <room>rooms\lvlShowcaseHUB</room>
     <room>rooms\lvlCutMan</room>
     <room>rooms\lvlPharaohMan</room>
