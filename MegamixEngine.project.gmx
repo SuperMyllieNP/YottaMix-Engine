@@ -3804,6 +3804,14 @@
         <sound>sound\sfxTextboxMMXBlip</sound>
         <sound>sound\sfxTextboxBNBlip</sound>
       </sounds>
+      <sounds name="Imports">
+        <sound>sound\sfxMarioFireball</sound>
+        <sound>sound\sfxMarioFireballAlt</sound>
+        <sound>sound\sfxMarioJump</sound>
+        <sound>sound\sfxMarioKick</sound>
+        <sound>sound\sfxMarioSuperball</sound>
+        <sound>sound\sfxMarioSwim</sound>
+      </sounds>
     </sounds>
     <sounds name="DontTouch">
       <sound>sound\sfxFINALSOUND_DONTMOVE</sound>
@@ -3829,197 +3837,301 @@
         <sprite>sprites\sprCustomCostume_UsedForImporting</sprite>
       </sprites>
       <sprites name="Weapons">
-        <sprite>sprites\sprBusterShot</sprite>
-        <sprite>sprites\sprBusterShotHalfCharged</sprite>
-        <sprite>sprites\sprBusterShotCharged</sprite>
-        <sprite>sprites\sprBusterShotChargedColourMask</sprite>
-        <sprite>sprites\sprBusterShotChargedPlus</sprite>
-        <sprite>sprites\sprBusterShotChargedPlusColourMask</sprite>
-        <sprites name="Proto Man">
-          <sprite>sprites\sprBusterShotHalfChargedProto</sprite>
-          <sprite>sprites\sprBusterShotChargedProto</sprite>
-          <sprite>sprites\sprBusterShotChargedProtoColourMask</sprite>
+        <sprites name="Weapon Wheel">
+          <sprite>sprites\sprWeaponWheelSetIcons</sprite>
+          <sprite>sprites\sprWeaponWheelStatus</sprite>
         </sprites>
-        <sprite>sprites\sprBassBullet</sprite>
-        <sprite>sprites\sprSparkChaser</sprite>
-        <sprite>sprites\sprLaserTrident</sprite>
-        <sprite>sprites\sprTornadoBlow</sprite>
-        <sprite>sprites\mskTornadoBlow</sprite>
-        <sprite>sprites\sprMagneticShockwave</sprite>
-        <sprite>sprites\sprMagneticShockwaveParticle</sprite>
-        <sprite>sprites\sprWaterShieldBubble</sprite>
-        <sprite>sprites\sprThunderBeam</sprite>
-        <sprite>sprites\sprThunderBeamVertical</sprite>
-        <sprite>sprites\sprIceWall</sprite>
-        <sprite>sprites\sprIceWallShard</sprite>
-        <sprite>sprites\sprIceWallBreak</sprite>
-        <sprite>sprites\sprMagnetBeam</sprite>
-        <sprite>sprites\sprMagnetBeamEnd</sprite>
-        <sprite>sprites\sprMagnetBeamPickup</sprite>
-        <sprite>sprites\sprBass_TrebleBoostSheet</sprite>
-        <sprites name="Rush">
-          <sprite>sprites\sprRushMask</sprite>
-          <sprite>sprites\sprRushTeleport</sprite>
-          <sprite>sprites\sprRush</sprite>
-          <sprite>sprites\sprRushCoil</sprite>
-          <sprite>sprites\sprRushJet</sprite>
-          <sprite>sprites\sprRushCycle</sprite>
-        </sprites>
-        <sprites name="MaGMML1">
-          <sprite>sprites\sprMetalBlade</sprite>
-          <sprite>sprites\sprMagicCard</sprite>
-          <sprite>sprites\sprMagicCardVertical</sprite>
-          <sprite>sprites\sprSolarBlaze</sprite>
-          <sprite>sprites\sprSolarBlazeWave</sprite>
-          <sprite>sprites\sprPharaohShotCharging</sprite>
-          <sprite>sprites\sprPharaohShot</sprite>
-          <sprite>sprites\sprPharaohShotCharged</sprite>
-          <sprite>sprites\sprThunderWool</sprite>
-          <sprite>sprites\sprThunderWoolThunder</sprite>
-          <sprite>sprites\sprBlackHoleBombInactive</sprite>
-          <sprite>sprites\sprBlackHoleBomb</sprite>
-          <sprite>sprites\sprBlackHoleBombHitbox</sprite>
-          <sprite>sprites\sprGeminiLaser</sprite>
-          <sprite>sprites\sprGeminiLaserReflect</sprite>
-        </sprites>
-        <sprites name="MaGMML2">
-          <sprite>sprites\sprHornetChaser</sprite>
-          <sprite>sprites\sprJewelSatellite</sprite>
-          <sprite>sprites\sprGrabBuster</sprite>
-          <sprite>sprites\sprGrabBusterPickup</sprite>
-          <sprite>sprites\sprTripleBlade</sprite>
-          <sprite>sprites\sprFlashStopperScreen</sprite>
-          <sprite>sprites\sprWheelCutter</sprite>
-          <sprite>sprites\sprSlashClaw</sprite>
-          <sprite>sprites\sprSuperArrow</sprite>
-          <sprite>sprites\sprWireAdapterWire</sprite>
-          <sprite>sprites\sprWireAdapter</sprite>
-          <sprites name="Sakugarne">
-            <sprite>sprites\sprSakugarne</sprite>
-            <sprite>sprites\sprSakugarneRide</sprite>
-            <sprites name="References">
-              <sprite>sprites\sprSakugarneMegaman</sprite>
-              <sprite>sprites\sprSakugarneMegamanLess</sprite>
+        <sprites name="Official">
+          <sprites name="Busters + Default Weapons">
+            <sprites name="Icons">
+              <sprite>sprites\sprWeaponIconsMegaBuster</sprite>
+              <sprite>sprites\sprWeaponIconsBassBuster</sprite>
+            </sprites>
+            <sprite>sprites\sprBusterShot</sprite>
+            <sprite>sprites\sprBusterShotHalfCharged</sprite>
+            <sprite>sprites\sprBusterShotCharged</sprite>
+            <sprite>sprites\sprBusterShotChargedColourMask</sprite>
+            <sprite>sprites\sprBusterShotChargedPlus</sprite>
+            <sprite>sprites\sprBusterShotChargedPlusColourMask</sprite>
+            <sprites name="Proto Man">
+              <sprite>sprites\sprBusterShotHalfChargedProto</sprite>
+              <sprite>sprites\sprBusterShotChargedProto</sprite>
+              <sprite>sprites\sprBusterShotChargedProtoColourMask</sprite>
+            </sprites>
+            <sprite>sprites\sprBassBullet</sprite>
+          </sprites>
+          <sprites name="Games">
+            <sprites name="1 + PU">
+              <sprites name="Icons">
+                <sprite>sprites\sprWeaponIconsIceSlasher</sprite>
+                <sprite>sprites\sprWeaponIconsThunderBeam</sprite>
+                <sprite>sprites\sprWeaponIconsTimeSlow</sprite>
+                <sprite>sprites\sprWeaponIconsSuperArm</sprite>
+              </sprites>
+              <sprite>sprites\sprTimeSlowPulse</sprite>
+              <sprite>sprites\sprThunderBeam</sprite>
+              <sprite>sprites\sprThunderBeamVertical</sprite>
+              <sprite>sprites\sprSuperArmDebris</sprite>
+              <sprite>sprites\sprIceSlasher</sprite>
+            </sprites>
+            <sprites name="2">
+              <sprites name="Icons">
+                <sprite>sprites\sprWeaponIconsTimeStopper</sprite>
+                <sprite>sprites\sprWeaponIconsMetalBlade</sprite>
+              </sprites>
+              <sprite>sprites\sprMetalBlade</sprite>
+            </sprites>
+            <sprites name="3">
+              <sprites name="Icons">
+                <sprite>sprites\sprWeaponIconsTopSpin</sprite>
+                <sprite>sprites\sprWeaponIconsSparkShock</sprite>
+                <sprite>sprites\sprWeaponIconsSearchSnake</sprite>
+                <sprite>sprites\sprWeaponIconsGeminiLaser</sprite>
+              </sprites>
+              <sprite>sprites\sprGeminiLaser</sprite>
+              <sprite>sprites\sprGeminiLaserReflect</sprite>
+              <sprite>sprites\sprSearchSnake</sprite>
+              <sprite>sprites\sprSparkShock</sprite>
+              <sprite>sprites\sprSparkShockParalyze</sprite>
+              <sprite>sprites\mskSearchSnake</sprite>
+            </sprites>
+            <sprites name="4">
+              <sprites name="Icons">
+                <sprite>sprites\sprWeaponIconsRainFlush</sprite>
+                <sprite>sprites\sprWeaponIconsFlashStopper</sprite>
+                <sprite>sprites\sprWeaponIconsPharaohShot</sprite>
+              </sprites>
+              <sprite>sprites\sprPharaohShotCharging</sprite>
+              <sprite>sprites\sprPharaohShot</sprite>
+              <sprite>sprites\sprPharaohShotCharged</sprite>
+              <sprite>sprites\sprFlashStopperScreen</sprite>
+              <sprite>sprites\sprRainFlush</sprite>
+              <sprite>sprites\sprRainFlushParticle</sprite>
+            </sprites>
+            <sprites name="5">
+              <sprites name="Icons">
+                <sprite>sprites\sprWeaponIconsPowerStone</sprite>
+                <sprite>sprites\sprWeaponIconsWaterWave</sprite>
+              </sprites>
+              <sprite>sprites\sprWaterWave</sprite>
+              <sprite>sprites\mskWaterWaveSmall</sprite>
+              <sprite>sprites\sprStarCrashInit</sprite>
+              <sprite>sprites\sprStarCrash</sprite>
+              <sprite>sprites\sprPowerStone</sprite>
+            </sprites>
+            <sprites name="6">
+              <sprites name="Icons">
+                <sprite>sprites\sprWeaponIconsPlantBarrier</sprite>
+              </sprites>
+              <sprite>sprites\sprSilverTomahawk</sprite>
+              <sprite>sprites\sprWindStorm</sprite>
+              <sprite>sprites\sprPlantBarrier</sprite>
+            </sprites>
+            <sprites name="7">
+              <sprites name="Icons">
+                <sprite>sprites\sprWeaponIconsSlashClaw</sprite>
+              </sprites>
+              <sprite>sprites\sprSlashClaw</sprite>
+            </sprites>
+            <sprites name="8">
+              <sprites name="Icons">
+                <sprite>sprites\sprWeaponIconsHomingSniper</sprite>
+              </sprites>
+              <sprite>sprites\sprHomingSniper</sprite>
+              <sprite>sprites\sprHomingSniperCrosshair</sprite>
+            </sprites>
+            <sprites name="B">
+              <sprites name="Icons">
+                <sprite>sprites\sprWeaponIconsMagicCard</sprite>
+                <sprite>sprites\sprWeaponIconsIceWall</sprite>
+                <sprite>sprites\sprWeaponIconsWaveBurner</sprite>
+                <sprite>sprites\sprWeaponIconsTenguBlade</sprite>
+              </sprites>
+              <sprite>sprites\sprIceWall</sprite>
+              <sprite>sprites\sprIceWallShard</sprite>
+              <sprite>sprites\sprIceWallBreak</sprite>
+              <sprite>sprites\sprMagicCard</sprite>
+              <sprite>sprites\sprMagicCardVertical</sprite>
+              <sprite>sprites\sprTenguBlade</sprite>
+              <sprite>sprites\sprTenguDisk</sprite>
+            </sprites>
+            <sprites name="B2">
+              <sprites name="Icons">
+                <sprite>sprites\sprWeaponIconsFlameMixer</sprite>
+                <sprite>sprites\sprWeaponIconsFlameShower</sprite>
+                <sprite>sprites\sprWeaponIconsClockWeapons</sprite>
+                <sprite>sprites\sprWeaponIconsBarrierWind</sprite>
+                <sprite>sprites\sprWeaponIconsPierceCyclone</sprite>
+                <sprite>sprites\sprWeaponIconsVulcanSnipe</sprite>
+                <sprite>sprites\sprWeaponIconsVulcanSplit</sprite>
+              </sprites>
+              <sprites name="Rock">
+                <sprite>sprites\sprBarrierWind</sprite>
+                <sprite>sprites\sprDanganBulletR</sprite>
+              </sprites>
+              <sprites name="Forte">
+                <sprite>sprites\sprFlameMixer</sprite>
+                <sprite>sprites\sprPierceCyclone</sprite>
+                <sprite>sprites\sprDanganBulletF</sprite>
+              </sprites>
+            </sprites>
+            <sprites name="9">
+              <sprites name="Icons">
+                <sprite>sprites\sprWeaponIconsJewelSatellite</sprite>
+                <sprite>sprites\sprWeaponIconsHornetChaser</sprite>
+                <sprite>sprites\sprWeaponIconsBlackHoleBomb</sprite>
+                <sprite>sprites\sprWeaponIconsConcreteShot</sprite>
+                <sprite>sprites\sprWeaponIconsTornadoBlow</sprite>
+                <sprite>sprites\sprWeaponIconsLaserTrident</sprite>
+              </sprites>
+              <sprite>sprites\sprTornadoBlow</sprite>
+              <sprite>sprites\sprLaserTrident</sprite>
+              <sprite>sprites\mskTornadoBlow</sprite>
+              <sprite>sprites\sprBlackHoleBombInactive</sprite>
+              <sprite>sprites\sprBlackHoleBomb</sprite>
+              <sprite>sprites\sprBlackHoleBombHitbox</sprite>
+              <sprite>sprites\sprHornetChaser</sprite>
+              <sprite>sprites\sprJewelSatellite</sprite>
+              <sprite>sprites\sprConcreteShot</sprite>
+            </sprites>
+            <sprites name="10">
+              <sprites name="Icons">
+                <sprite>sprites\sprWeaponIconsSolarBlaze</sprite>
+                <sprite>sprites\sprWeaponIconsChillShot</sprite>
+                <sprite>sprites\sprWeaponIconsTripleBlade</sprite>
+                <sprite>sprites\sprWeaponIconsWheelCutter</sprite>
+                <sprite>sprites\sprWeaponIconsWaterShield</sprite>
+                <sprite>sprites\sprWeaponIconsThunderWool</sprite>
+              </sprites>
+              <sprite>sprites\sprWaterShieldBubble</sprite>
+              <sprite>sprites\sprSolarBlaze</sprite>
+              <sprite>sprites\sprSolarBlazeWave</sprite>
+              <sprite>sprites\sprThunderWool</sprite>
+              <sprite>sprites\sprThunderWoolThunder</sprite>
+              <sprite>sprites\sprWheelCutter</sprite>
+              <sprite>sprites\sprTripleBlade</sprite>
+              <sprite>sprites\sprChillShot</sprite>
+            </sprites>
+            <sprites name="11">
+              <sprites name="Icons">
+                <sprite>sprites\sprWeaponIconsBlockDropper</sprite>
+              </sprites>
+              <sprite>sprites\sprBlockDropper</sprite>
+              <sprite>sprites\sprBlockDropperDebris</sprite>
+            </sprites>
+            <sprites name="12/DO"/>
+            <sprites name="K">
+              <sprites name="Icons">
+                <sprite>sprites\sprWeaponIconsSakugarne</sprite>
+              </sprites>
+              <sprites name="Sakugarne">
+                <sprite>sprites\sprSakugarne</sprite>
+                <sprite>sprites\sprSakugarneRide</sprite>
+                <sprites name="References">
+                  <sprite>sprites\sprSakugarneMegaman</sprite>
+                  <sprite>sprites\sprSakugarneMegamanLess</sprite>
+                </sprites>
+              </sprites>
+            </sprites>
+            <sprites name="W5">
+              <sprites name="Icons">
+                <sprite>sprites\sprWeaponIconsSaltWater</sprite>
+                <sprite>sprites\sprWeaponIconsGrabBuster</sprite>
+                <sprite>sprites\sprWeaponIconsBreakDash</sprite>
+                <sprite>sprites\sprWeaponIconsSparkChaser</sprite>
+              </sprites>
+              <sprite>sprites\sprSparkChaser</sprite>
+              <sprite>sprites\sprGrabBuster</sprite>
+              <sprite>sprites\sprGrabBusterPickup</sprite>
+              <sprite>sprites\sprSaltWater</sprite>
+              <sprite>sprites\sprSaltWaterDrop</sprite>
+              <sprite>sprites\sprSaltWaterSplash1</sprite>
+              <sprite>sprites\sprSaltWaterSplash2</sprite>
+            </sprites>
+            <sprites name="DOS"/>
+            <sprites name="3DOS"/>
+            <sprites name="PB + PF"/>
+            <sprites name="PSA"/>
+            <sprites name="Crossovers">
+              <sprites name="SF"/>
+              <sprites name="MvC">
+                <sprites name="Icons">
+                  <sprite>sprites\sprWeaponIconsMagneticShockwave</sprite>
+                </sprites>
+                <sprite>sprites\sprMagneticShockwave</sprite>
+                <sprite>sprites\sprMagneticShockwaveParticle</sprite>
+              </sprites>
+            </sprites>
+          </sprites>
+          <sprites name="Other Media">
+            <sprites name="Comics">
+              <sprites name="Archie"/>
             </sprites>
           </sprites>
         </sprites>
-        <sprites name="MaG24HMML">
-          <sprite>sprites\sprWaterWave</sprite>
-          <sprite>sprites\mskWaterWaveSmall</sprite>
-          <sprite>sprites\sprTimeSlowPulse</sprite>
-          <sprite>sprites\sprChillShot</sprite>
-          <sprite>sprites\sprSuperArmDebris</sprite>
-        </sprites>
-        <sprites name="MaG48HMML">
-          <sprite>sprites\sprFlameMixer</sprite>
-          <sprite>sprites\sprRainFlush</sprite>
-          <sprite>sprites\sprRainFlushParticle</sprite>
-          <sprite>sprites\sprSparkShock</sprite>
-          <sprite>sprites\sprSparkShockParalyze</sprite>
-          <sprite>sprites\sprSearchSnake</sprite>
-          <sprite>sprites\mskSearchSnake</sprite>
-          <sprite>sprites\sprSaltWater</sprite>
-          <sprite>sprites\sprSaltWaterDrop</sprite>
-          <sprite>sprites\sprSaltWaterSplash1</sprite>
-          <sprite>sprites\sprSaltWaterSplash2</sprite>
-          <sprite>sprites\sprConcreteShot</sprite>
-          <sprite>sprites\sprHomingSniper</sprite>
-          <sprite>sprites\sprHomingSniperCrosshair</sprite>
-          <sprite>sprites\sprTenguBlade</sprite>
-          <sprite>sprites\sprTenguDisk</sprite>
-        </sprites>
-        <sprites name="MegaEngine">
-          <sprites name="MM5">
-            <sprite>sprites\sprStarCrashInit</sprite>
-            <sprite>sprites\sprStarCrash</sprite>
+        <sprites name="Fan-Made">
+          <sprites name="Personal-Made">
+            <sprites name="Mario">
+              <sprites name="Icons">
+                <sprite>sprites\sprWeaponIconsMarioHammer</sprite>
+                <sprite>sprites\sprWeaponIconsMarioFireball</sprite>
+                <sprite>sprites\sprWeaponIconsMarioSuperball</sprite>
+              </sprites>
+              <sprite>sprites\sprMarioFireball</sprite>
+              <sprite>sprites\sprMarioHammer</sprite>
+              <sprite>sprites\sprMarioSuperball</sprite>
+              <sprite>sprites\sprMarioSuperballTrail</sprite>
+            </sprites>
           </sprites>
-          <sprites name="MM6">
-            <sprite>sprites\sprSilverTomahawk</sprite>
-            <sprite>sprites\sprWindStorm</sprite>
-          </sprites>
-        </sprites>
-        <sprites name="WeaponIcons">
-          <sprite>sprites\sprWeaponIconsMegaBuster</sprite>
-          <sprite>sprites\sprWeaponIconsBassBuster</sprite>
-          <sprite>sprites\sprWeaponIconsSparkChaser</sprite>
-          <sprite>sprites\sprWeaponIconsLaserTrident</sprite>
-          <sprite>sprites\sprWeaponIconsTornadoBlow</sprite>
-          <sprite>sprites\sprWeaponIconsMagneticShockwave</sprite>
-          <sprite>sprites\sprWeaponIconsWaterShield</sprite>
-          <sprite>sprites\sprWeaponIconsBreakDash</sprite>
-          <sprite>sprites\sprWeaponIconsThunderBeam</sprite>
-          <sprite>sprites\sprWeaponIconsIceWall</sprite>
-          <sprite>sprites\sprWeaponIconsRushCoil</sprite>
-          <sprite>sprites\sprWeaponIconsRushJet</sprite>
-          <sprite>sprites\sprWeaponIconsRushCycle</sprite>
-          <sprite>sprites\sprWeaponIconsMagnetBeam</sprite>
-          <sprite>sprites\sprWeaponIconsBlank</sprite>
-          <sprite>sprites\sprWeaponIconsProtoCoil</sprite>
-          <sprite>sprites\sprWeaponIconsProtoJet</sprite>
-          <sprite>sprites\sprWeaponIconsProtoCycle</sprite>
-          <sprite>sprites\sprWeaponIconsTrebleBoost</sprite>
-          <sprite>sprites\sprWeaponIconsTrebleCycle</sprite>
-          <sprite>sprites\sprWeaponWheelSetIcons</sprite>
-          <sprite>sprites\sprWeaponWheelStatus</sprite>
-          <sprites name="MaGMML1">
-            <sprite>sprites\sprWeaponIconsMetalBlade</sprite>
-            <sprite>sprites\sprWeaponIconsTopSpin</sprite>
-            <sprite>sprites\sprWeaponIconsMagicCard</sprite>
-            <sprite>sprites\sprWeaponIconsSolarBlaze</sprite>
-            <sprite>sprites\sprWeaponIconsPharaohShot</sprite>
-            <sprite>sprites\sprWeaponIconsThunderWool</sprite>
-            <sprite>sprites\sprWeaponIconsBlackHoleBomb</sprite>
-            <sprite>sprites\sprWeaponIconsGeminiLaser</sprite>
-          </sprites>
-          <sprites name="MaGMML2">
-            <sprite>sprites\sprWeaponIconsHornetChaser</sprite>
-            <sprite>sprites\sprWeaponIconsJewelSatellite</sprite>
-            <sprite>sprites\sprWeaponIconsGrabBuster</sprite>
-            <sprite>sprites\sprWeaponIconsTripleBlade</sprite>
-            <sprite>sprites\sprWeaponIconsFlashStopper</sprite>
-            <sprite>sprites\sprWeaponIconsSlashClaw</sprite>
-            <sprite>sprites\sprWeaponIconsWheelCutter</sprite>
-            <sprite>sprites\sprWeaponIconsSakugarne</sprite>
-            <sprite>sprites\sprWeaponIconsWire</sprite>
-            <sprite>sprites\sprWeaponIconsSuperArrow</sprite>
-          </sprites>
-          <sprites name="MaG24HMML">
-            <sprite>sprites\sprWeaponIconsWaterWave</sprite>
-            <sprite>sprites\sprWeaponIconsTimeSlow</sprite>
-            <sprite>sprites\sprWeaponIconsSuperArm</sprite>
-            <sprite>sprites\sprWeaponIconsChillShot</sprite>
-          </sprites>
-          <sprites name="MaG48HMML">
-            <sprite>sprites\sprWeaponIconsFlameMixer</sprite>
-            <sprite>sprites\sprWeaponIconsHomingSniper</sprite>
-            <sprite>sprites\sprWeaponIconsRainFlush</sprite>
-            <sprite>sprites\sprWeaponIconsSparkShock</sprite>
-            <sprite>sprites\sprWeaponIconsSearchSnake</sprite>
-            <sprite>sprites\sprWeaponIconsSaltWater</sprite>
-            <sprite>sprites\sprWeaponIconsConcreteShot</sprite>
-            <sprite>sprites\sprWeaponIconsTenguBlade</sprite>
-          </sprites>
-          <sprites name="Misc">
-            <sprite>sprites\sprWeaponIconsSkeletuppinPakkajoe</sprite>
-            <sprite>sprites\sprWeaponIconsBlockDropper</sprite>
-            <sprite>sprites\sprWeaponIconsPlantBarrier</sprite>
-            <sprite>sprites\sprWeaponIconsPowerStone</sprite>
-            <sprite>sprites\sprWeaponIconsTimeStopper</sprite>
-            <sprite>sprites\sprWeaponIconsIceSlasher</sprite>
-          </sprites>
-        </sprites>
-        <sprites name="Misc">
-          <sprites name="Test">
+          <sprites name="Other">
+            <sprites name="Icons">
+              <sprite>sprites\sprWeaponIconsSkeletuppinPakkajoe</sprite>
+              <sprite>sprites\sprWeaponIconsBlank</sprite>
+            </sprites>
             <sprite>sprites\sprSkeletuppinPakkajoe</sprite>
-            <sprite>sprites\sprBlockDropper</sprite>
-            <sprite>sprites\sprBlockDropperDebris</sprite>
-            <sprite>sprites\sprIceSlasher</sprite>
-            <sprite>sprites\sprPlantBarrier</sprite>
-            <sprite>sprites\sprPowerStone</sprite>
           </sprites>
-          <sprite>sprites\mskWeaponExplosion</sprite>
-          <sprite>sprites\sprCoopWarpStar</sprite>
-          <sprite>sprites\sprCoopWarpStarSparkle</sprite>
+        </sprites>
+        <sprites name="Support Units">
+          <sprites name="Rush">
+            <sprites name="Icons">
+              <sprite>sprites\sprWeaponIconsRushJet</sprite>
+              <sprite>sprites\sprWeaponIconsRushCoil</sprite>
+              <sprite>sprites\sprWeaponIconsRushCycle</sprite>
+            </sprites>
+            <sprite>sprites\sprRushMask</sprite>
+            <sprite>sprites\sprRushTeleport</sprite>
+            <sprite>sprites\sprRush</sprite>
+            <sprite>sprites\sprRushCoil</sprite>
+            <sprite>sprites\sprRushJet</sprite>
+            <sprite>sprites\sprRushCycle</sprite>
+          </sprites>
+          <sprites name="Beat"/>
+          <sprites name="Tango"/>
+          <sprites name="Eddie"/>
+          <sprites name="Treble">
+            <sprites name="Icons">
+              <sprite>sprites\sprWeaponIconsTrebleCycle</sprite>
+              <sprite>sprites\sprWeaponIconsTrebleBoost</sprite>
+            </sprites>
+            <sprite>sprites\sprBass_TrebleBoostSheet</sprite>
+          </sprites>
+          <sprites name="Reggae"/>
+          <sprites name="Other">
+            <sprites name="Icons">
+              <sprite>sprites\sprWeaponIconsMagnetBeam</sprite>
+              <sprite>sprites\sprWeaponIconsProtoCoil</sprite>
+              <sprite>sprites\sprWeaponIconsProtoJet</sprite>
+              <sprite>sprites\sprWeaponIconsProtoCycle</sprite>
+              <sprite>sprites\sprWeaponIconsWire</sprite>
+              <sprite>sprites\sprWeaponIconsSuperArrow</sprite>
+            </sprites>
+            <sprite>sprites\sprMagnetBeam</sprite>
+            <sprite>sprites\sprMagnetBeamEnd</sprite>
+            <sprite>sprites\sprMagnetBeamPickup</sprite>
+            <sprite>sprites\sprSuperArrow</sprite>
+            <sprite>sprites\sprWireAdapterWire</sprite>
+            <sprite>sprites\sprWireAdapter</sprite>
+          </sprites>
         </sprites>
       </sprites>
       <sprites name="Health-Weapon Bar">
@@ -4031,6 +4143,9 @@
       <sprites name="Other">
         <sprite>sprites\sprHitspark</sprite>
         <sprite>sprites\sprMegamanSweat</sprite>
+        <sprite>sprites\mskWeaponExplosion</sprite>
+        <sprite>sprites\sprCoopWarpStar</sprite>
+        <sprite>sprites\sprCoopWarpStarSparkle</sprite>
       </sprites>
     </sprites>
     <sprites name="Collision">
@@ -6111,6 +6226,12 @@
         <sprite>sprites\sprDestroyable3216</sprite>
         <sprite>sprites\sprReflectBlockSmall</sprite>
         <sprite>sprites\sprReflectBlockLarge</sprite>
+      </sprites>
+      <sprites name="Custom">
+        <sprites name="Test Dummy">
+          <sprite>sprites\sprMylliePlush</sprite>
+          <sprite>sprites\sprMyllieBopper</sprite>
+        </sprites>
       </sprites>
     </sprites>
     <sprites name="Sections">
@@ -8833,60 +8954,142 @@
         <object>objects\objMegamanExit</object>
         <object>objects\objCoOpWarpStar</object>
         <objects name="Weapons">
-          <object>objects\objBusterShot</object>
-          <object>objects\objBusterShotHalfCharged</object>
-          <object>objects\objBusterShotCharged</object>
-          <object>objects\objBusterShotHalfChargedProto</object>
-          <object>objects\objBusterShotChargedProto</object>
-          <object>objects\objSparkChaser</object>
-          <object>objects\objLaserTrident</object>
-          <object>objects\objWaterShield</object>
-          <object>objects\objTornadoBlow</object>
-          <object>objects\objThunderBeam</object>
-          <object>objects\objMagneticShockwave</object>
-          <object>objects\objIceWall</object>
-          <object>objects\objBreakDash</object>
-          <objects name="Misc">
-            <object>objects\objNormalBusterShot</object>
-            <object>objects\objTornadoEffect</object>
-            <object>objects\objBubblePopEffect</object>
-            <object>objects\objRushTeleport</object>
-            <object>objects\objRushTeleportBlock</object>
-            <object>objects\objWeaponExplosion</object>
-            <object>objects\objProtoShield</object>
+          <objects name="Official">
+            <objects name="Busters + Defaults">
+              <object>objects\objBusterShot</object>
+              <object>objects\objBusterShotHalfCharged</object>
+              <object>objects\objBusterShotCharged</object>
+              <object>objects\objBusterShotHalfChargedProto</object>
+              <object>objects\objBusterShotChargedProto</object>
+            </objects>
+            <objects name="Games">
+              <objects name="1 + PU">
+                <object>objects\objIceSlasher</object>
+                <object>objects\objThunderBeam</object>
+                <object>objects\objTimeSlow</object>
+                <object>objects\objSuperArm</object>
+              </objects>
+              <objects name="2">
+                <object>objects\objMetalBlade</object>
+                <object>objects\objTimeStopper</object>
+              </objects>
+              <objects name="3">
+                <object>objects\objTopSpin</object>
+                <object>objects\objSparkShock</object>
+                <object>objects\objSearchSnake</object>
+                <object>objects\objGeminiLaser</object>
+              </objects>
+              <objects name="4">
+                <object>objects\objRainFlush</object>
+                <object>objects\objFlashStopper</object>
+                <object>objects\objPharaohShot</object>
+              </objects>
+              <objects name="5">
+                <object>objects\objPowerStone</object>
+                <object>objects\objWaterWave</object>
+              </objects>
+              <objects name="6">
+                <object>objects\objPlantBarrier</object>
+              </objects>
+              <objects name="7">
+                <object>objects\objSlashClaw</object>
+              </objects>
+              <objects name="8">
+                <object>objects\objHomingSniper</object>
+              </objects>
+              <objects name="B">
+                <object>objects\objTenguBlade</object>
+                <object>objects\objMagicCard</object>
+                <object>objects\objIceWall</object>
+                <object>objects\objWaveBurner</object>
+              </objects>
+              <objects name="B2">
+                <objects name="Rock">
+                  <object>objects\objVulcanSplit</object>
+                  <object>objects\objFlameShower</object>
+                  <object>objects\objBarrierWind</object>
+                </objects>
+                <objects name="Forte">
+                  <object>objects\objVulcanSnipe</object>
+                  <object>objects\objFlameMixer</object>
+                  <object>objects\objPierceCyclone</object>
+                </objects>
+              </objects>
+              <objects name="9">
+                <object>objects\objConcreteShot</object>
+                <object>objects\objBlackHoleBomb</object>
+                <object>objects\objJewelSatellite</object>
+                <object>objects\objTornadoBlow</object>
+                <object>objects\objHornetChaser</object>
+                <object>objects\objLaserTrident</object>
+              </objects>
+              <objects name="10">
+                <object>objects\objThunderWool</object>
+                <object>objects\objWaterShield</object>
+                <object>objects\objSolarBlaze</object>
+                <object>objects\objChillSpike</object>
+                <object>objects\objWheelCutter</object>
+                <object>objects\objTripleBlade</object>
+              </objects>
+              <objects name="11">
+                <object>objects\objBlockDropper</object>
+              </objects>
+              <objects name="K">
+                <object>objects\objSakugarne</object>
+              </objects>
+              <objects name="W5">
+                <object>objects\objGrabBuster</object>
+                <object>objects\objSparkChaser</object>
+                <object>objects\objSaltWater</object>
+                <object>objects\objBreakDash</object>
+              </objects>
+              <objects name="Crossovers">
+                <objects name="MvC">
+                  <object>objects\objMagneticShockwave</object>
+                </objects>
+              </objects>
+            </objects>
+            <objects name="Other Media">
+              <objects name="Comics">
+                <objects name="Archie"/>
+              </objects>
+            </objects>
           </objects>
-          <objects name="MaGMML1">
-            <object>objects\objMetalBlade</object>
-            <object>objects\objGeminiLaser</object>
-            <object>objects\objSolarBlaze</object>
-            <object>objects\objTopSpin</object>
-            <object>objects\objThunderWool</object>
-            <object>objects\objPharaohShot</object>
-            <object>objects\objBlackHoleBomb</object>
-            <object>objects\objMagicCard</object>
+          <objects name="Fan-Made">
+            <objects name="Megamix">
+              <object>objects\objSkeletuppinPakkajoe</object>
+            </objects>
+            <objects name="Based on Other Series">
+              <objects name="Mario">
+                <object>objects\objMarioFireball</object>
+                <object>objects\objMarioHammer</object>
+                <object>objects\objMarioSuperball</object>
+              </objects>
+            </objects>
+          </objects>
+          <objects name="Supports">
+            <objects name="Rush">
+              <object>objects\objRushCoil</object>
+              <object>objects\objRushJet</object>
+              <object>objects\objRushCycle</object>
+            </objects>
+            <objects name="Treble">
+              <object>objects\objTrebleBoost</object>
+            </objects>
+            <objects name="Other">
+              <object>objects\objMagnetBeam</object>
+              <object>objects\objWireAdapter</object>
+              <object>objects\objSuperArrow</object>
+            </objects>
+          </objects>
+          <objects name="Misc. Repository">
             <objects name="Misc.">
               <object>objects\objBHBEffect</object>
             </objects>
-          </objects>
-          <objects name="MaGMML2">
-            <object>objects\objHornetChaser</object>
-            <object>objects\objJewelSatellite</object>
-            <object>objects\objGrabBuster</object>
-            <object>objects\objTripleBlade</object>
-            <object>objects\objFlashStopper</object>
-            <object>objects\objSlashClaw</object>
-            <object>objects\objWheelCutter</object>
-            <object>objects\objSakugarne</object>
             <objects name="Misc.">
               <object>objects\objGrabBusterPickup</object>
               <object>objects\objSlashEffect</object>
             </objects>
-          </objects>
-          <objects name="MaG24HMML">
-            <object>objects\objWaterWave</object>
-            <object>objects\objTimeSlow</object>
-            <object>objects\objSuperArm</object>
-            <object>objects\objChillSpike</object>
             <objects name="Misc.">
               <object>objects\objTimeSlowPulse</object>
               <object>objects\objChillSpikeLanded</object>
@@ -8894,41 +9097,23 @@
               <object>objects\objSuperArmBlockProjectile</object>
               <object>objects\objSuperArmDebris</object>
             </objects>
-          </objects>
-          <objects name="MaG48HMML">
-            <object>objects\objFlameMixer</object>
-            <object>objects\objRainFlush</object>
-            <object>objects\objSparkShock</object>
-            <object>objects\objSearchSnake</object>
-            <object>objects\objTenguBlade</object>
-            <object>objects\objSaltWater</object>
-            <object>objects\objConcreteShot</object>
-            <object>objects\objHomingSniper</object>
             <objects name="Misc.">
               <object>objects\objSparkShockParalyze</object>
               <object>objects\objTenguDash</object>
               <object>objects\objTenguDisk</object>
             </objects>
-          </objects>
-          <objects name="Other Examples">
-            <object>objects\objTimeStopper</object>
-            <object>objects\objPowerStone</object>
-            <object>objects\objPlantBarrier</object>
-            <object>objects\objBlockDropper</object>
-            <object>objects\objIceSlasher</object>
-            <object>objects\objSkeletuppinPakkajoe</object>
+            <objects name="Misc">
+              <object>objects\objNormalBusterShot</object>
+              <object>objects\objTornadoEffect</object>
+              <object>objects\objBubblePopEffect</object>
+              <object>objects\objRushTeleport</object>
+              <object>objects\objRushTeleportBlock</object>
+              <object>objects\objWeaponExplosion</object>
+              <object>objects\objProtoShield</object>
+            </objects>
             <objects name="Misc.">
               <object>objects\objBlockDropperDebris</object>
             </objects>
-          </objects>
-          <objects name="Supports">
-            <object>objects\objRushCoil</object>
-            <object>objects\objRushJet</object>
-            <object>objects\objTrebleBoost</object>
-            <object>objects\objWireAdapter</object>
-            <object>objects\objSuperArrow</object>
-            <object>objects\objRushCycle</object>
-            <object>objects\objMagnetBeam</object>
           </objects>
         </objects>
       </objects>
