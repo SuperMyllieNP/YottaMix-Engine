@@ -3,7 +3,7 @@
   <Configs name="configs">
     <Config>Configs\Default</Config>
   </Configs>
-  <datafiles number="2818" name="datafiles">
+  <datafiles number="2824" name="datafiles">
     <datafile>
       <name>fmodex.dll</name>
       <exists>-1</exists>
@@ -72,7 +72,7 @@
       </ConfigOptions>
       <filename>Screenshots and Savefiles.lnk</filename>
     </datafile>
-    <datafiles number="2818" name="Music">
+    <datafiles number="2824" name="Music">
       <datafile>
         <name>14 Tenguman.ini</name>
         <exists>-1</exists>
@@ -753,7 +753,7 @@
         </ConfigOptions>
         <filename>WW_Boss.vgz</filename>
       </datafile>
-      <datafiles number="2818" name="MM9">
+      <datafiles number="2824" name="MM9">
         <datafile>
           <name>01_Opening1.mid</name>
           <exists>-1</exists>
@@ -1418,7 +1418,7 @@
           <filename>MM9_OST.sf2</filename>
         </datafile>
       </datafiles>
-      <datafiles number="2818" name="MM10">
+      <datafiles number="2824" name="MM10">
         <datafile>
           <name>songinfo.ini</name>
           <exists>-1</exists>
@@ -2236,8 +2236,110 @@
           <filename>MM10.sf2</filename>
         </datafile>
       </datafiles>
+      <datafile>
+        <name>Esper_Dream_2_-_Aratanaru_Tatakai_-_Book_2_-_Train.nsf</name>
+        <exists>-1</exists>
+        <size>28224</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Esper_Dream_2_-_Aratanaru_Tatakai_-_Book_2_-_Train.nsf</filename>
+      </datafile>
+      <datafile>
+        <name>[NSF] Final Fantasy - Chocobo Theme by Alumae.nsf</name>
+        <exists>-1</exists>
+        <size>7613</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>[NSF] Final Fantasy - Chocobo Theme by Alumae.nsf</filename>
+      </datafile>
+      <datafile>
+        <name>[NSF] Mario Kart DS - Singleplayer Menu by drown'd.nsf</name>
+        <exists>-1</exists>
+        <size>9388</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>[NSF] Mario Kart DS - Singleplayer Menu by drown'd.nsf</filename>
+      </datafile>
+      <datafile>
+        <name>[NSF] MegaMari - Reisen Udongein Inaba Stage.nsf</name>
+        <exists>-1</exists>
+        <size>12662</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>[NSF] MegaMari - Reisen Udongein Inaba Stage.nsf</filename>
+      </datafile>
+      <datafile>
+        <name>[NSF] MMM - Pre-V1.1 Title Theme.nsf</name>
+        <exists>-1</exists>
+        <size>12103</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>[NSF] MMM - Pre-V1.1 Title Theme.nsf</filename>
+      </datafile>
+      <datafile>
+        <name>[NSF] Original - Challenger by Rx_model.nsf</name>
+        <exists>-1</exists>
+        <size>8406</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>[NSF] Original - Challenger by Rx_model.nsf</filename>
+      </datafile>
     </datafiles>
-    <datafiles number="2818" name="Levels">
+    <datafiles number="2824" name="Levels">
       <datafile>
         <name>lvlChillMan.room.gmx</name>
         <exists>-1</exists>
@@ -3123,7 +3225,7 @@
         <filename>lvlTestHallTemp.room.gmx</filename>
       </datafile>
     </datafiles>
-    <datafiles number="2818" name="Costumes">
+    <datafiles number="2824" name="Costumes">
       <datafile>
         <name>Custom Costumes Documentation.docx</name>
         <exists>-1</exists>
@@ -3141,7 +3243,7 @@
         </ConfigOptions>
         <filename>Custom Costumes Documentation.docx</filename>
       </datafile>
-      <datafiles number="2818" name="Sample">
+      <datafiles number="2824" name="Sample">
         <datafile>
           <name>Sample.png</name>
           <exists>-1</exists>
@@ -3161,7 +3263,7 @@
         </datafile>
       </datafiles>
     </datafiles>
-    <datafiles number="2818" name="Borders">
+    <datafiles number="2824" name="Borders">
       <datafile>
         <name>_SAMPLE SPECS_.png</name>
         <exists>-1</exists>
@@ -3834,6 +3936,7 @@
         <sprite>sprites\sprProtoman</sprite>
         <sprite>sprites\sprBass</sprite>
         <sprite>sprites\sprRoll</sprite>
+        <sprite>sprites\sprIRLMe</sprite>
         <sprite>sprites\sprCustomCostume_UsedForImporting</sprite>
       </sprites>
       <sprites name="Weapons">

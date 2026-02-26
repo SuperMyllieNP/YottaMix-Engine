@@ -10,7 +10,7 @@
   <persistent>0</persistent>
   <colour>8421504</colour>
   <showcolour>-1</showcolour>
-  <code></code>
+  <code>playMusic("Esper_Dream_2_-_Aratanaru_Tatakai_-_Book_2_-_Train.nsf", "VGM", 0, 0, 0, 0, 1);</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>

@@ -147,6 +147,8 @@ if entityCanStep()
             <string>if (global.keyShootPressed[playerID] &amp;&amp; !playerIsLocked(PL_LOCK_SHOOT))
 {
     var i = fireWeapon(25, -1, objBarrierWind, 2, 2, 1, 0);
+    playSFX(sfxSolarBlazePopSmall);
+
     if (i) // set starting speed
     {
         i.xspeed = image_xscale * 1.5;
@@ -279,8 +281,6 @@ if ((deathTimer / 2) mod 2) || deathTimer &lt; 0
 {
     draw_sprite_ext(spr, imgIdx, x, y + (dsin(sinTimer * 5) * 7), image_xscale, image_yscale, 0, c_white, image_alpha)
 }
-
-playSFX(sfxSolarBlazePopSmall);
 
 //draw_text(x, bbox_top, string(dsin(sinTimer * 5)));
 </string>

@@ -124,6 +124,67 @@ global.costumeSakugarneSecondaryColor[3] = global.costumeSecondaryColor[3];
 global.costumePrice[3] = 100;
 global.costumeSource[3] = "Mega Man";
 
+/////// OTHER FUCKERS ///////
+
+// IRL Me
+global.costumeID[? "Willie"] = 4;
+global.playerSprite[4] = sprIRLMe;
+
+global.costumeName[4] = "Willie";
+global.costumeNameShort[4] = global.costumeName[4];
+global.costumeReadyText[4] = "LET'S FUCKING DO THIS SHIT";
+global.costumeShotOffset[4] = 2;
+global.costumeExtendedSpin[4] = false;
+
+global.costumeBusterName[4] = "SWAG BLAST";
+global.costumeBusterIcon[4] = sprWeaponIconsMegaBuster;
+global.costumePrimaryColor[4] = make_colour_rgb(8, 35, 59);
+global.costumeSecondaryColor[4] = make_colour_rgb(223, 0, 74);
+
+global.costumeRushCoilPrimaryColor[4] = make_colour_rgb(241, 69, 241);
+global.costumeRushCoilSecondaryColor[4] = make_colour_rgb(214, 214, 214);
+global.costumeRushJetPrimaryColor[4] = global.costumeRushCoilPrimaryColor[4];
+global.costumeRushJetSecondaryColor[4] = global.costumeRushCoilSecondaryColor[4];
+
+global.costumeRushBikePrimaryColor[4] = global.costumeRushCoilPrimaryColor[4];
+global.costumeRushBikeSecondaryColor[4] = global.costumeRushCoilSecondaryColor[4];
+global.costumeSakugarnePrimaryColor[4] = global.costumePrimaryColor[4];
+global.costumeSakugarneSecondaryColor[4] = global.costumeSecondaryColor[4];
+
+global.costumePrice[4] = 100;
+global.costumeSource[4] = "Mega Man";
+
+/////// TEMPLATE ///////
+// TEMPLATE
+/*
+global.costumeID[? "Template"] = X;
+global.playerSprite[X] = sprRockman;
+
+global.costumeName[X] = "Template";
+global.costumeNameShort[X] = global.costumeName[X];
+global.costumeReadyText[X] = "READY";
+global.costumeShotOffset[X] = 2;
+global.costumeExtendedSpin[X] = false;
+
+global.costumeBusterName[X] = "Template";
+global.costumeBusterIcon[X] = sprWeaponIconsMegaBuster;
+global.costumePrimaryColor[X] = make_color_rgb(248, 56, 0);
+global.costumeSecondaryColor[X] = make_color_rgb(0, 168, 0);
+
+global.costumeRushCoilPrimaryColor[X] = make_color_rgb(0, 160, 0);
+global.costumeRushCoilSecondaryColor[X] = make_color_rgb(168, 224, 248);
+global.costumeRushJetPrimaryColor[X] = global.costumeRushCoilPrimaryColor[X];
+global.costumeRushJetSecondaryColor[X] = global.costumeRushCoilSecondaryColor[X];
+
+global.costumeRushBikePrimaryColor[X] = global.costumeRushCoilPrimaryColor[X];
+global.costumeRushBikeSecondaryColor[X] = global.costumeRushCoilSecondaryColor[X];
+global.costumeSakugarnePrimaryColor[X] = global.costumePrimaryColor[X];
+global.costumeSakugarneSecondaryColor[X] = global.costumeSecondaryColor[X];
+
+global.costumePrice[X] = 100;
+global.costumeSource[X] = "Mega Man";
+*/
+
 //Add more internal costumes here.
 //NOTE: Place new costumes after sprRoll in the sprite listings, but before sprCustomCostume_UsedForImporting.
 //That acts as a marker for the sprite randomizer to ensure skins aren't randomized, which looks bad.

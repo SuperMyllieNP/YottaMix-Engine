@@ -52,7 +52,7 @@ imgSpd = 0;
 
 rockTimer = 0;
 
-spr = sprMylliePlush;
+spr = sprMyllieBopper
 </string>
           </argument>
         </arguments>
