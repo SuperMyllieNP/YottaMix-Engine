@@ -157,7 +157,7 @@ if entityCanStep()
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>weaponSetup("SUPERBALL", make_colour_rgb(130, 130, 80), make_colour_rgb(238, 240, 188), sprWeaponIconsMarioSuperball);
+            <string>//weaponSetup("SUPERBALL", make_colour_rgb(130, 130, 80), make_colour_rgb(238, 240, 188), sprWeaponIconsMarioSuperball);
 </string>
           </argument>
         </arguments>

@@ -4105,6 +4105,7 @@
                 <sprite>sprites\sprWeaponIconsWheelCutter</sprite>
                 <sprite>sprites\sprWeaponIconsWaterShield</sprite>
                 <sprite>sprites\sprWeaponIconsThunderWool</sprite>
+                <sprite>sprites\sprWeaponIconsScrewCrusher</sprite>
               </sprites>
               <sprite>sprites\sprWaterShieldBubble</sprite>
               <sprite>sprites\sprSolarBlaze</sprite>
@@ -9136,12 +9137,14 @@
                 <object>objects\objChillSpike</object>
                 <object>objects\objWheelCutter</object>
                 <object>objects\objTripleBlade</object>
+                <object>objects\objReboundStriker</object>
               </objects>
               <objects name="11">
                 <object>objects\objBlockDropper</object>
               </objects>
               <objects name="K">
                 <object>objects\objSakugarne</object>
+                <object>objects\objScrewCrusher</object>
               </objects>
               <objects name="W5">
                 <object>objects\objGrabBuster</object>

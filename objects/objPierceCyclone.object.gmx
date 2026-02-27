@@ -119,10 +119,10 @@ if entityCanStep()
             <string>if (global.keyShootPressed[playerID] &amp;&amp; !playerIsLocked(PL_LOCK_SHOOT))
 {
     var i = fireWeapon(25, -1, objPierceCyclone, 2, 2, 1, 0);
-    playSFX(sfxSolarBlazePopSmall);
 
     if (i) // set starting speed
     {
+        playSFX(sfxSolarBlazePopSmall);
         i.xspeed = image_xscale * 2.5;
     }
 }

@@ -139,7 +139,7 @@ if (entityCanStep())
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>weaponSetup("FIREBALL", make_colour_rgb(210, 31, 25), make_colour_rgb(254, 240, 208), sprWeaponIconsMarioFireball);
+            <string>weaponSetup("FIREBALL", make_colour_rgb(210, 31, 25), make_colour_rgb(240, 184, 56), sprWeaponIconsMarioFireball);
 </string>
           </argument>
         </arguments>
@@ -189,6 +189,7 @@ instance_create(x, y + 4, objExplosion);
             <kind>1</kind>
             <string>///Successful Hit
 event_inherited();
+event_user(EV_DEATH);
 </string>
           </argument>
         </arguments>
